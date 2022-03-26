@@ -118,7 +118,7 @@ aside {
   height: 58vh;
 }
 
-@-moz-document url-prefix() {
+@-moz-document url-prefix(https://shimmering-frangollo-de7d5f.netlify.app/) {
   .ingredients-table{
     overflow: overlay;
   }
