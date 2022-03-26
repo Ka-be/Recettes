@@ -114,15 +114,10 @@ aside {
 }
 
 .ingredients-table{
-  overflow: overlay;
+  overflow: auto;
   height: 58vh;
 }
 
-@-moz-document url-prefix(https://shimmering-frangollo-de7d5f.netlify.app/) {
-  .ingredients-table{
-    overflow: overlay;
-  }
-}
 
 table {
   width: 100%;
