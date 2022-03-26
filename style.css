@@ -217,7 +217,7 @@ section .content{
 
 /*Contenu de la recette*/
 article {
-  overflow: overlay;
+  overflow: auto;
 }
 
 article ol {
