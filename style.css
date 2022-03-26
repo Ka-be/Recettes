@@ -118,6 +118,12 @@ aside {
   height: 58vh;
 }
 
+@-moz-document url-prefix() {
+  .ingredients-table{
+    overflow: overlay;
+  }
+}
+
 table {
   width: 100%;
   font-size: 1.8em;
