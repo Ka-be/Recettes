@@ -1,3 +1,5 @@
+// FONCTION COMPTEUR
+// ----------------------------------
 
 var data = 0;
   
@@ -15,3 +17,8 @@ function decrement() {
     data = data - 1;
     document.getElementById("counting").innerText = data;
 }
+
+
+// FONCTION CALCUL AUTO DES QUANTITES
+// ----------------------------------
+
