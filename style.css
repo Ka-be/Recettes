@@ -245,7 +245,8 @@ article ol li::before {
 
 article ol li {
   counter-increment: li;
-  line-height: 3em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
   font-size: 2.5em;
   font-weight: 100;
 }
