@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="/script.js"></script> 
     <title>Template Recette de Cuisine</title> <!--Titre de la page de recette-->
 </head>
 <body>
@@ -21,11 +22,11 @@
 
     <div class="number">
           <p>Personnes</p>
-          <button type="button">
+          <button type="button" onclick="decrement()">
               <img src="/Assets/minus.svg">
           </button>
-          <div class="number-count">12</div>
-          <button type="button">
+          <div class="number-count" id="counting"></div>
+          <button type="button" onclick="increment()">
             <img src="/Assets/plus.svg">
           </button>
     </div> 
