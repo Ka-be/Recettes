@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> 
     <title>Template Recette de Cuisine</title> <!--Titre de la page de recette-->
 </head>
 <body>
 
-  <aside>
-      <div class="thumbnail">
+  <main>
+    <div class="thumbnail">
         <a href="/Assets/lasagnes.jpeg">
           <img src="/Assets/lasagnes.jpeg" alt="Lasagnes bolognaise">
         </a>
-      </div>
+    </div>
 
-      <div class="number">
-          <p>Nombre de personnes</p>
+    <div class="number">
+          <p>Nombre</p>
           <button type="button">
               <img src="/Assets/minus.svg">
           </button>
-          <div class="number-count">8</div>
+          <div class="number-count">12</div>
           <button type="button">
             <img src="/Assets/plus.svg">
           </button>
-      </div> 
+    </div> 
 
 
-      <div class="ingredients">
+    <div class="ingredients">
          <div class="ingredients-content">
-            <div class="ingredients-title">
+            <div class="ingredients-title subtitle">
                 <h2>Ingrédients</h2>
             </div>
           <div class="ingredients-table">
@@ -114,22 +117,19 @@
              </table>
             </div> 
          </div>
-        </div>
-    </aside>
-
+      </div>
   
-<main>
-   <header>
-      <div class="title">
+  
+    <div class="title">
         <h1>Lasagnes bolognaise</h1> <!--Nom de la recette / Bloc rouge-->
       </div>
       <div class="close" target="_blank">
         <img src="/Assets/close.svg"> <!--Bouton de clôture de la page-->
-      </div>
-    </header>
+    </div>
+  
 
-  <section>
-    <div class="content">
+  
+    <section class="content">
       <div class="content-title">
         <h2>Etapes de la recette</h2>
       </div>
@@ -151,8 +151,7 @@
             <li>Déguster</li>
         </ol>
       </article>
-    </div>
-  </section>
+    </section>
   
 </main>
 
